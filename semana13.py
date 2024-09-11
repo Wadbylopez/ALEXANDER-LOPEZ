@@ -28,9 +28,7 @@ promedios = calcular_temperatura_promedio(ciudades_temperaturas)
 for ciudad, promedio in promedios.items():
     print(f"Temperatura promedio en {ciudad}: {promedio:.2f}°C")
 
-git add semana13.py
-git commit -m "Añadida función para calcular temperatura promedio"
-git push origin main
+
 
 
 
